@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/rowreorder/1.2.7/css/rowReorder.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.5/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.semanticui.min.css">
+        <link rel="stylesheet" href="css/table.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap">
+        <style>
+            ::-webkit-scrollbar{
+            width:0.5vw;
+            }
+            ::-webkit-scrollbar-track{
+            background-color: #fcf3eb;
+            box-shadow: inset 0 0 0.25vw 0 #000000;
+            }
+            ::-webkit-scrollbar-thumb{
+            background-color:#dba171;
+            border-radius: 0.5vw;
+            }
+            .dataTables_paginate{
+            display:none;
+            }
+        </style>
+        <title>Untitled Document</title>
+    </head>
+    <body>
+        <table id="table3" class="display nowrap" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Author</th>
+                    <th>Book/Book Chapter</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>V Sivasubramanain</td>
+                    <td>&ldquo;Environmental Sustainability Using Green Technologies&rdquo; 1st Edition, ISBN 9781498753050, CRC Press, 2016.</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>D Vidhyeswari, A Surendhar, M Jerold, S Bhuvaneshwari, V Sivasubramanian</td>
+                    <td>&ldquo;Microbial Fuel Cell Technology: A Sustainable Energy Producer From Wide Variety Of Waste Sources&rdquo; ISBN 9781315364339, CRC Press, Chapter 12, 288-304, 2016.</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>C Jerold, A Vigneshwaran, A Surendhar, B G Prakash Kumar, V Sivasubramanian</td>
+                    <td>Algal Biosorption of Heavy Metals, Environmental Sustainability Using Green Technologies&rdquo;, ISBN 9781315364339, CRC Press, Chapter 5, 132-143, 2016.</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>S Nivedita and Shiny Joseph</td>
+                    <td>&ldquo;Membrane Filtration Techniques through Polymer Nanocomposites&rdquo; ISBN 9780128098844, Chapter 14, 2017.</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>V Sivasubramanian</td>
+                    <td>Bioprocess Engineering for a Green Environment&rdquo; 1st Edition, ISBN 9781315232379, CRC Press, 2018.</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>S Senthil, Noel Jacob Kaleekkal</td>
+                    <td>Membranes: Hemodialysis Applications&rdquo; book chapter, ISBN 9781351019422, CRC Press, 2018.</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>M Jerold, V Sivasubramanian</td>
+                    <td>&ldquo;Biochemical and Environmental Bioprocessing: Challenges and Developments&rdquo;, 1st Edition, ISBN 9780367187392, CRC Press, 2019.</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>L Jacob, T Moses, S Joseph, L A Varghese, S Nalinakshan</td>
+                    <td>&ldquo;Study on the Effective Removal of Chromium VI via Polysulfone/TiO2 Nanocomposite Membranes and Its Antifouling Property&rdquo; ISBN 9789811392139, Springer, 2020.</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>V Sivasubramanian, S Subramanian</td>
+                    <td>&ldquo;Global Challenges in Energy and Environment&rdquo;, 1st Edition, ISBN 9789811392139, Springer, 2020.</td>
+                    <td>2020</td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.21/js/dataTables.semanticui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js
+            "></script>
+        <script src="https://cdn.datatables.net/rowreorder/1.2.7/js/dataTables.rowReorder.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.2.5/js/dataTables.responsive.min.js"></script>	
+        <script>
+            $(document).ready(function() {
+            	"use strict";
+                $('#table3').DataTable({
+            		"lengthMenu": [[10, -1], [10, " Show All"]],
+            		"order": [[2, 'asc']],
+            		"pagingType": "simple",
+            		"language": {
+                    "searchPlaceholder": "Search records",
+                    "search": "",
+                  	},
+            		rowReorder: {
+                        selector: 'td:nth-child(0)'
+                    },
+                    responsive: true
+            	});
+            });
+        </script>
+    </body>
+</html>
