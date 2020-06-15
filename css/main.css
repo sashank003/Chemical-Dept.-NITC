@@ -14,9 +14,8 @@
 
 html,body{
 	overflow-y: scroll;
-  	-webkit-overflow-scrolling: touch;
+	-webkit-overflow-scrolling: touch;
 }
-
 *:focus {
 	outline: none;
 }
@@ -2523,11 +2522,11 @@ footer #bgfoot {
 	}
 	footer section #footext img {
 		width: 30px;
-		left: 320px;
+		left: 87vw;
 	}
 	footer section #footext h3 {
-		left: 95px;
-		top: 35px;
+		left: 25vw;
+		top: 10vw;
 		font-weight: 500;
 		font-size: 8px;
 	}
@@ -2545,12 +2544,12 @@ footer #bgfoot {
 		font-size: 13px;
 	}
 	#credits {
-		top: 110px;
+		top: 35vw;
 		left: 3vw;
 	}
 	#donate_footer {
-		left: 270px;
-		top: 150px;
+		left: 75vw;
+		top: 47vw;
 	}
 	.location::after {
 		font-size: 15px;
