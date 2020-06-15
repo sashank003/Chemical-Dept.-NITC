@@ -11,8 +11,8 @@
 	margin: 0;
 }
 
-html,body{
-	-webkit-overflow-scrolling:touch;
+body>section{
+	-webkit-overflow-scrolling: touch;
 }
 
 *:focus {
