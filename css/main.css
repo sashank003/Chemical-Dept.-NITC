@@ -2498,16 +2498,13 @@ footer #bgfoot {
 	.x {
 		font-size: 15px;
 	}
-	footer,
+		footer,
 	footer #opc {
-		height: 250px;
+		height: 67vw;
 	}
 	#contact_data p,
-	#credits p, #credits p a {
-		font-size: 10px;
-	}
-	#credits p a:hover {
-		font-size: 10px;
+	#credits p, #credits p a, #credits p a:hover {
+		font-size: 2.8vw;
 	}
 	#location:hover {
 	-webkit-animation-name: bounce;
@@ -2517,42 +2514,46 @@ footer #bgfoot {
 	-webkit-animation-iteration-count: infinite;
 }
 	footer #bgfoot {
-		height: 300vw;
-		background-position: 0 0;
+		height: 60vw;
+		background-position: 40% 0;
 	}
 	footer section #footext img {
-		width: 30px;
-		left: 320px;
+		width: 8vw;
+		left: 90vw;
 	}
 	footer section #footext h3 {
-		left: 95px;
-		top: 35px;
+		left: 20vw;
+		top: 8vw;
 		font-weight: 500;
-		font-size: 8px;
+		font-size: 2.5vw;
 	}
 	footer section #footext {
-		height: 50px;
-		top: 200px;
+		height: 12vw;
+		top: 55vw;
 	}
 	#contact_data h4,
 	#credits h5 {
 		font-weight: 500;
-		font-size: 11px;
+		font-size: 3.2vw;
 	}
 	#donate_footer h3 {
 		font-weight: 600;
-		font-size: 13px;
+		font-size: 4vw;
 	}
+	#donate_footer:hover {
+	transform: none;
+	transition: 0.0s;
+} 
 	#credits {
-		top: 140px;
+		top: 38vw;
 		left: 3vw;
 	}
 	#donate_footer {
-		left: 270px;
-		top: 180px;
+		left: 75vw;
+		top: 49vw;
 	}
 	.location::after {
-		font-size: 15px;
+		font-size: 6vw;
 	}
 	#academics_design,
 	#bg,
