@@ -2501,7 +2501,7 @@ footer #bgfoot {
 	}
 	footer,
 	footer #opc {
-		height: 260px;
+		height: 250px;
 	}
 	#contact_data p,
 	#credits p, #credits p a {
@@ -2533,7 +2533,7 @@ footer #bgfoot {
 	}
 	footer section #footext {
 		height: 50px;
-		top: 210px;
+		top: 200px;
 	}
 	#contact_data h4,
 	#credits h5 {
@@ -2545,12 +2545,12 @@ footer #bgfoot {
 		font-size: 13px;
 	}
 	#credits {
-		top: 120px;
+		top: 110px;
 		left: 3vw;
 	}
 	#donate_footer {
 		left: 270px;
-		top: 160px;
+		top: 150px;
 	}
 	.location::after {
 		font-size: 15px;
