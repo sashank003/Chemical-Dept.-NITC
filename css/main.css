@@ -2501,7 +2501,7 @@ footer #bgfoot {
 	}
 	footer,
 	footer #opc {
-		height: 250px;
+		height: 260px;
 	}
 	#contact_data p,
 	#credits p, #credits p a {
@@ -2532,7 +2532,7 @@ footer #bgfoot {
 		font-size: 8px;
 	}
 	footer section #footext {
-		height: 50px;
+		height: 60px;
 		top: 200px;
 	}
 	#contact_data h4,
