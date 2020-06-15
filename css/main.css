@@ -11,7 +11,7 @@
 	margin: 0;
 }
 
-body>section{
+html,body,body>section,body>div{
 	-webkit-overflow-scrolling: touch;
 }
 
