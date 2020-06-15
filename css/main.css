@@ -2533,7 +2533,7 @@ footer #bgfoot {
 	}
 	footer section #footext {
 		height: 50px;
-		top: 200px;
+		top: 210px;
 	}
 	#contact_data h4,
 	#credits h5 {
@@ -2545,12 +2545,12 @@ footer #bgfoot {
 		font-size: 13px;
 	}
 	#credits {
-		top: 140px;
+		top: 120px;
 		left: 3vw;
 	}
 	#donate_footer {
 		left: 270px;
-		top: 180px;
+		top: 160px;
 	}
 	.location::after {
 		font-size: 15px;
