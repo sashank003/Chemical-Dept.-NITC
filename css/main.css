@@ -11,7 +11,7 @@
 	margin: 0;
 }
 
-html,body,body>section,body>div,body>header,body>footer{
+html,body,body>section,body>div,body>header,body>footer,body>iframe{
 	-webkit-overflow-scrolling: touch;
 }
 
